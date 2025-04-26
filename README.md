@@ -11,7 +11,6 @@
 
 ## Demo
 
-> Add a link or screenshot of your live site here.
 
 ![Homepage Screenshot](https://r2.fivemanage.com/icFvuIKk9ch17iXgkGhC0/Capturadeecr2025-04-21152043.png)  
 [Live Demo](https://resume.smenezes.pt)
