@@ -101,6 +101,7 @@ export const RESUME_DATA = {
     "C#",
     "MsSQL",
     "Tailwind",
+    "Fivem Server management & development",
     "Network Engeineering",
     "Organ Music Player"
   ],
@@ -137,7 +138,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Image Manipulation",
+      title: "OMG Black Guy Generator",
       techStack: ["NextJS", "Canva", "Tailwind"],
       description:
         "A simple web application that allows users to create funny omg images using the Canva API.",
@@ -204,13 +205,23 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Outdoor Walks",
-      techStack: ["mindfulness", "nature", "relaxation"],
+      title: "Silly Programming Projects",
+      techStack: ["c#", "javascript", "just for fun"],
       description:
-        "Long walks in nature to recharge, spark creativity, and disconnect from the digital world.",
+        "Coding ridiculous tools, bots, and experiments that solve no problem but make people laugh (or at least raise an eyebrow).",
       link: {
-        label: "Get outside",
-        href: "https://www.nationalgeographic.com/environment/article/why-spending-time-outside-is-so-good-for-you",
+        label: "My coding vibe",
+        href: "https://www.explainxkcd.com/wiki/index.php/303:_Compiling",
+      },
+    },
+    {
+      title: "Badminton",
+      techStack: ["sports", "fun", "exercise"],
+      description:
+        "Smashing shuttlecocks on the court — a fun way to stay active and enjoy some friendly competition.",
+      link: {
+        label: "badminton",
+        href: "https://pt.wikipedia.org/wiki/Badm%C3%ADnton",
       },
     },
   ],
