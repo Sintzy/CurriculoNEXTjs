@@ -164,7 +164,7 @@ export const RESUME_DATA = {
   ],
   hobbies: [
     {
-      title: "Playing the Organ",
+      title: "Playing Organ",
       techStack: ["music", "creativity", "practice"],
       description:
         "Exploring classical and modern music through the organ — a blend of technical discipline and creative expression.",
