@@ -50,6 +50,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Fórum Whaou – Jornadas da Teologia do Corpo",
+      link: "https://www.jornadas-tdc.org/",
+      badges: ["Event Support", "AV Team"],
+      title: "Audiovisual Team Assistant",
+      logo: "",
+      start: "2024 /",
+      end: "2025",
+      description:
+        "Worked behind the scenes managing audio and visual setups, ensuring smooth technical operations for a conference.",
+    },
+    {
       company: "Lar Santa Joana Princesa",
       link: "https://scml.pt/equipamento/residencia-sta-joana-princesa/",
       badges: ["Voluntary Work"],
@@ -72,17 +83,6 @@ export const RESUME_DATA = {
         "Assisted in collecting, sorting, and distributing food donations during national food drives, contributing to the fight against hunger and food waste.",
     },
     {
-      company: "Fórum Whaou – Jornadas da Teologia do Corpo",
-      link: "https://www.jornadas-tdc.org/",
-      badges: ["Event Support", "AV Team"],
-      title: "Audiovisual Team Assistant",
-      logo: "",
-      start: "2024 /",
-      end: "2025",
-      description:
-        "Worked behind the scenes managing audio and visual setups, ensuring smooth technical operations for a conference.",
-    },
-    {
       company: "Campo de Férias Confia",
       link: "https://campodeferiasconfia.pt",
       badges: ["Animator"],
@@ -91,12 +91,12 @@ export const RESUME_DATA = {
       start: "",
       end: "",
       description:
-        "I am a helper at the confia camp",
+        "I am a helper at the Campo de Férias Confia, where I assist in organizing and leading activities for children and teenagers. My role involves ensuring a safe and enjoyable environment for all participants.",
     },
   ],
   skills: [
     "Javascript",
-    "Express",
+    "ExpressJS",
     "NextJS",
     "C#",
     "MsSQL",
@@ -105,6 +105,16 @@ export const RESUME_DATA = {
     "Organ Music Player"
   ],
   projects: [
+    {
+      title: "Kairos (Bus Information Display System)",
+      techStack: ["NextJS", "React", "OpenWeatherMap API", "OpenRouteService API", "Discord API", "Spotify API", "Tailwind"],
+      description:
+        "Real‑time bus information display: weather, now‑playing music, and live ETA & distance via OpenRouteService",
+      link: {
+        label: "learn more at",
+        href: "https://github.com/Sintzy/kairos",
+      },
+    },
     {
       title: "Cached Image Host",
       techStack: ["ExpressJS", "Axios", "Multer"],
@@ -144,11 +154,11 @@ export const RESUME_DATA = {
     },
     {
       name: "English",
-      level: "Advanced (C1)",
+      level: "Upper Intermediate (B2)",
     },
     {
       name: "Spanish",
-      level: "Intermediate (B1)",
+      level: "Elementary (A2)",
     }
 
   ],
