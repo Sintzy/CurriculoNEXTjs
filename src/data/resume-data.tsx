@@ -107,7 +107,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Kairos (Bus Information Display System)",
-      techStack: ["NextJS", "React", "OpenWeatherMap API", "OpenRouteService API", "Discord API", "Spotify API", "Tailwind"],
+      techStack: ["NextJS", "React", "OpenWeatherMap API", "OpenRouteService API", "Discord API", "Spotify API", "Tailwind", "MongoDB"],
       description:
         "Real‑time bus information display: weather, now‑playing music, and live ETA & distance via OpenRouteService",
       link: {
