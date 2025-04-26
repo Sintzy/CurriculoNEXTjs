@@ -10,7 +10,7 @@ import { RESUME_DATA } from "../data/resume-data";
 import { ProjectCard } from "../components/project-card";
 
 export const metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}.`,
   description: "Resume of Miguel Menezes",
 };
 
