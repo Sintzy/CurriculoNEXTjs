@@ -5,8 +5,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Miguel Menezes Resume",
-  description: "",
+  title: "Miguel Menezes | Web Developer",
+  description: "Resume of Miguel Menezes",
 };
 
 // If loading a variable font, you don't need to specify the font weight

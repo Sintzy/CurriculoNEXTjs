@@ -11,7 +11,7 @@ import { ProjectCard } from "../components/project-card";
 
 export const metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
+  description: "Resume of Miguel Menezes",
 };
 
 export default function Page() {
