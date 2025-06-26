@@ -78,3 +78,25 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  header,
+  footer,
+  .print-hidden {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}

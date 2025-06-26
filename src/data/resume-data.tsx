@@ -10,14 +10,13 @@ export const RESUME_DATA = {
   initials: "mnzs",
   location: "Lisboa, Portugal",
   locationLink: "https://www.google.com/maps/place/Lisboa",
-  about:
-    "I am a 16-year-old student passionate about web development. I enjoy creating web applications and exploring new technologies. I'm always looking to learn and improve my skills, especially in front-end development. I work well both independently and in a team, and I'm excited to grow as a developer.\n" +
-    "\n",
-  summary:
+  about: `A 16 year old front‑end‑focused web‑development enthusiast with a passion for turning ideas into polished, user‑friendly interfaces. Experienced with React and Next.js, comfortable working both autonomously and in cross‑functional teams, and always eager to experiment with new technologies to build meaningful products.`,
+  summary: (
     <>
-      Check out my {" "}
-      <Link className="underline" href="https://jxnl.github.io/blog/">blog</Link>, if you are looking for my writing.
-    </>,
+      Curious about what I\'m currently exploring? Read my {" "}
+      <Link className="underline" href="https://smenezes.pt/blog">blog</Link>.
+    </>
+  ),
   avatarUrl: "https://r2.fivemanage.com/icFvuIKk9ch17iXgkGhC0/image.png",
   personalWebsiteUrl: "https://smenezes.pt",
   contact: {
@@ -43,9 +42,9 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Colégio de Santa Doroteia",
-      degree: "",
+      degree: "Secondary Education – Sciences & Technologies track",
       start: "2019",
-      end: "Current",
+      end: "Present",
     },
   ],
   work: [
@@ -55,95 +54,104 @@ export const RESUME_DATA = {
       badges: ["Event Support", "AV Team"],
       title: "Audiovisual Team Assistant",
       logo: "",
-      start: "2024 /",
+      start: "2024",
       end: "2025",
       description:
-        "Worked behind the scenes managing audio and visual setups, ensuring smooth technical operations for a conference.",
+        `Configured and monitored audio‑visual equipment, guaranteeing seamless live sessions and recordings for a 300‑participant conference.`,
     },
     {
       company: "Lar Santa Joana Princesa",
       link: "https://scml.pt/equipamento/residencia-sta-joana-princesa/",
-      badges: ["Voluntary Work"],
-      title: "Volunteer",
+      badges: ["Volunteer"],
+      title: "Volunteer – Elderly Support",
       logo: "",
       start: "2024",
-      end: "",
+      end: "2024",
       description:
-        "Supported elderly residents through companionship and meaningful conversations, helping to create a warm and caring environment.",
+        `Provide companionship, organize leisure activities, and assist staff, fostering a warm and caring environment for residents.`,
     },
     {
       company: "Banco Alimentar",
       link: "https://www.bancoalimentar.pt/",
-      badges: ["Voluntary Work"],
-      title: "Volunteer",
+      badges: ["Volunteer"],
+      title: "Volunteer – Logistics",
       logo: "",
-      start: "2025",
-      end: "",
+      start: "2024",
+      end: "Present",
       description:
-        "Assisted in collecting, sorting, and distributing food donations during national food drives, contributing to the fight against hunger and food waste.",
+        `Collect, sort, and distribute food donations during national drives, contributing to local efforts against hunger and waste.`,
     },
     {
       company: "Campo de Férias Confia",
       link: "https://campodeferiasconfia.pt",
       badges: ["Animator"],
-      title: "Animator",
+      title: "Youth Camp Animator",
       logo: "",
-      start: "",
-      end: "",
+      start: "2023",
+      end: "Present",
       description:
-        "I am a helper at the Campo de Férias Confia, where I assist in organizing and leading activities for children and teenagers. My role involves ensuring a safe and enjoyable environment for all participants.",
+        `Design and lead recreational and educational activities for children and teenagers, ensuring safety and engagement throughout the camp.`,
     },
   ],
   skills: [
-    "Javascript",
-    "ExpressJS",
-    "NextJS",
+    "JavaScript",
+    "TypeScript",
+    "Express.js",
+    "Next.js",
     "C#",
-    "MsSQL",
-    "Tailwind",
-    "Fivem Server management & development",
-    "Network Engeineering",
-    "Organ Music Player"
+    "MS SQL",
+    "Tailwind CSS",
+    "MongoDB",
+    "FiveM server management & development",
+    "Basic Network Engineering",
   ],
   projects: [
     {
-      title: "Kairos (Bus Information Display System)",
-      techStack: ["NextJS", "React", "OpenWeatherMap API", "OpenRouteService API", "Discord API", "Spotify API", "Tailwind", "MongoDB"],
+      title: "Kairos – Bus Information Display System",
+      techStack: [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "MongoDB",
+        "OpenWeatherMap API",
+        "OpenRouteService API",
+        "Discord API",
+        "Spotify API",
+      ],
       description:
-        "Real‑time bus information display: weather, now‑playing music, and live ETA & distance via OpenRouteService",
+        `Real‑time dashboard for buses combining live ETA, distance, weather data, and now‑playing music, served to onboard screens and Discord channels.`,
       link: {
-        label: "learn more at",
+        label: "GitHub repo",
         href: "https://github.com/Sintzy/kairos",
       },
     },
     {
       title: "Cached Image Host",
-      techStack: ["ExpressJS", "Axios", "Multer"],
+      techStack: ["Express.js", "Axios", "Multer"],
       description:
-        "A simple way of sending files between people. You send the file and receive a 5-digit code. On the download page you can enter the code and download the file. The files are valid for 3 months.\n" +
-        "\n",
+        `Lightweight file‑sharing service that issues a 5‑digit code for each upload; files remain accessible for up to 3 months before automatic cleanup.`,
       link: {
-        label: "learn more at",
+        label: "GitHub repo",
         href: "https://github.com/Sintzy/CachedImageHost",
       },
     },
     {
-      title: "Carros da Cristina",
-      techStack: ["C#", "AngularJS", "MSSQL"],
+      title: "Carros da Cristina – Dealership Management Portal",
+      techStack: ["C#", "AngularJS", "MS SQL"],
       description:
-        "A car dealership management system with a web interface for managing cars, customers, and sales.",
+        `End‑to‑end web interface that streamlines inventory, customer records, and sales workflows for a fictional car dealership.`,
       link: {
-        label: "Car dealership",
+        label: "Read more",
         href: "",
       },
     },
     {
       title: "OMG Black Guy Generator",
-      techStack: ["NextJS", "Canva", "Tailwind"],
+      techStack: ["Next.js", "Canva API", "Tailwind CSS"],
       description:
-        "A simple web application that allows users to create funny omg images using the Canva API.",
+        `Playful web app that lets users generate meme‑style images through an easy Canva‑powered interface.`,
       link: {
-        label: "omg",
+        label: "GitHub repo",
         href: "https://github.com/Sintzy/OMGBlackGuyGenerator",
       },
     },
@@ -155,72 +163,71 @@ export const RESUME_DATA = {
     },
     {
       name: "English",
-      level: "Upper Intermediate (B2)",
+      level: "Upper‑Intermediate (B2)",
     },
     {
       name: "Spanish",
       level: "Elementary (A2)",
-    }
-
+    },
   ],
   hobbies: [
     {
-      title: "Playing Organ",
+      title: "Organ Performance",
       techStack: ["music", "creativity", "practice"],
       description:
-        "Exploring classical and modern music through the organ — a blend of technical discipline and creative expression.",
+        `Exploring classical and contemporary repertoires on the pipe organ – a balance of technical precision and artistic expression.`,
       link: {
-        label: "My favorite instrument",
+        label: "What is an organ?",
         href: "https://en.wikipedia.org/wiki/Organ_(music)",
       },
     },
     {
-      title: "Arduino Projects",
+      title: "Arduino & IoT Experiments",
       techStack: ["electronics", "microcontrollers", "DIY"],
       description:
-        "Tinkering with sensors, LEDs, and small motors to build fun or absurd gadgets — sometimes useful, often just cool.",
+        `Prototyping sensors, LED arrays, and quirky gadgets to scratch the maker itch and learn embedded basics.`,
       link: {
         label: "arduino.cc",
         href: "https://www.arduino.cc/",
       },
     },
     {
-      title: "Network Engineering Experiments",
+      title: "Home‑Lab Networking",
       techStack: ["servers", "switches", "routing"],
       description:
-        "Messing around with network topologies, server configs, and switch management — for fun and learning.",
+        `Deploying small‑scale network topologies with pfSense, VMware, and Unifi gear to deepen understanding of systems administration.`,
       link: {
-        label: "Wireshark? Yes please",
+        label: "Wireshark? Yes please!",
         href: "https://www.wireshark.org/",
       },
     },
     {
-      title: "Photography & Media Systems",
-      techStack: ["photography", "video", "AV systems", "media tech"],
+      title: "Photography & AV Systems",
+      techStack: ["photography", "video", "event tech"],
       description:
-        "Passionate about capturing moments and making them shine — whether it's behind the camera or setting up professional AV systems for events. I enjoy being the invisible force that makes everything look and sound great.",
+        `Capturing moments and designing audio‑visual setups that make events look and sound outstanding.`,
       link: {
-        label: "The technical side of creativity",
+        label: "AV basics",
         href: "https://livtechnical.com/what-is-an-av-system/",
       },
     },
     {
-      title: "Silly Programming Projects",
-      techStack: ["c#", "javascript", "just for fun"],
+      title: "Silly Coding Projects",
+      techStack: ["C#", "JavaScript", "fun"],
       description:
-        "Coding ridiculous tools, bots, and experiments that solve no problem but make people laugh (or at least raise an eyebrow).",
+        `Building small bots, scripts, and web experiments that exist purely to entertain friends and sharpen skills.`,
       link: {
-        label: "My coding vibe",
+        label: "Coding humour",
         href: "https://www.explainxkcd.com/wiki/index.php/303:_Compiling",
       },
     },
     {
       title: "Badminton",
-      techStack: ["sports", "fun", "exercise"],
+      techStack: ["sports", "fitness", "coordination"],
       description:
-        "Smashing shuttlecocks on the court — a fun way to stay active and enjoy some friendly competition.",
+        `Keeping agile and competitive on the court – a perfect counterbalance to screen time.`,
       link: {
-        label: "badminton",
+        label: "Badminton basics",
         href: "https://pt.wikipedia.org/wiki/Badm%C3%ADnton",
       },
     },
