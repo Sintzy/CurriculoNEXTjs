@@ -3,7 +3,7 @@ import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
 import { InstagramIcon } from "../components/icons/InstagramIcon";
-import {DiscordIcon} from "@/components/icons/DiscordIcon";
+import { DiscordIcon } from "@/components/icons/DiscordIcon";
 
 export const RESUME_DATA = {
   name: "Miguel Menezes",
@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   summary:
     <>
       Check out my {" "}
-      <Link className="underline" href="https://jxnl.github.io/blog/">blog</Link>, if you are looking for my writing.  
+      <Link className="underline" href="https://jxnl.github.io/blog/">blog</Link>, if you are looking for my writing.
     </>,
   avatarUrl: "https://r2.fivemanage.com/icFvuIKk9ch17iXgkGhC0/image.png",
   personalWebsiteUrl: "https://smenezes.pt",
@@ -195,13 +195,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Silly Programming Projects",
-      techStack: ["c#", "javascript", "just for fun"],
+      title: "Photography & Media Systems",
+      techStack: ["photography", "video", "AV systems", "media tech"],
       description:
-        "Coding ridiculous tools, bots, and experiments that solve no problem but make people laugh (or at least raise an eyebrow).",
+        "Passionate about capturing moments and making them shine — whether it's behind the camera or setting up professional AV systems for events. I enjoy being the invisible force that makes everything look and sound great.",
       link: {
-        label: "My coding vibe",
-        href: "https://www.explainxkcd.com/wiki/index.php/303:_Compiling",
+        label: "The technical side of creativity",
+        href: "https://livtechnical.com/what-is-an-av-system/",
       },
     },
     {
